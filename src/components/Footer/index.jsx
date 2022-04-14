@@ -1,14 +1,14 @@
+import logo from "../Imagenes/logo.png"
 const footer = () => {
   return (
     <div className="flex flex-row flex-wrap font-serif bg-blue-100">
       <img
-        className="w-16 h-16 pb-4 m-10 border-2 rounded-full "
-        src="./img/delivery.png"
+        className="h-20 pt-4 m-10 w-52"
+        src={logo}
         alt="logotipo NumenStore"
       />
       <ul className="h-64 pt-20 pl-20 text-left w-94 ">
         <dt className="p-1">
-          {" "}
           <strong> CONTACTANOS </strong>
         </dt>
         <li>linea de reclamos y sugerencias +54 11 1234-5678</li>
