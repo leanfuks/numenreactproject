@@ -1,18 +1,22 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import WithFriends from "./components/WithFriends";
 import Banner from "./components/Banner";
-import Article1 from "./components/Article1";
-import Article2 from "./components/Article2"
+import UltimasOfertas from "./components/UltimasOfertas";
+import QuienHace from "./components/QuienHace"
+import PorqueElegir from "./components/PorqueElegir"
 
 const App = () => {
   return (
     <div>
       <NavBar />
       <Banner />
+      <UltimasOfertas/>
+      <PorqueElegir/>
+      <QuienHace/>
+      <WithFriends />
       <Footer />
-      <Article1/>
-      <Article2/>
     </div>
   );
 };
