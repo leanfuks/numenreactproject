@@ -32,7 +32,7 @@ const footer = () => {
         <li>todos los productos</li>
         <li>descubre nuestros puntos de entrega</li>
         <li>puntos Numen Store</li>
-        <li>los dias martes y jueves 20% de descuento en todo el carrito</li>
+        <li>Los dias martes y jueves 20% de descuento en todo el carrito</li>
       </ul>
     </div>
   );

@@ -1,3 +1,5 @@
+import google from "../Imagenes/google.png"
+
 const WithFriends = () => {
   return (
     <ul className="w-full h-48 font-serif bg-blue-300">
@@ -9,7 +11,7 @@ const WithFriends = () => {
         <a target="_blank" href="https://web.whatsapp.com/">
           <svg
             data-icon="whatsapp"
-            className="w-20 h-20 text-white svg-inline--fa fa-whatsapp sm:hover:text-green-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="text-white w-14 h-14 svg-inline--fa fa-whatsapp sm:hover:text-green-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -23,7 +25,7 @@ const WithFriends = () => {
         <a target="_blank" href="https://www.instagram.com">
           <svg
             data-icon="instagram"
-            className="w-20 h-20 text-white svg-inline--fa fa-instagram sm:hover:text-violet-300 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="text-white w-14 h-14 svg-inline--fa fa-instagram sm:hover:text-violet-300 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -34,10 +36,10 @@ const WithFriends = () => {
             ></path>
           </svg>
         </a>
-        <a target="_blank" href="https://es-la.facebook.com/">
+        <a target="blank" href="https://es-la.facebook.com/">
           <svg
             data-icon="facebook"
-            className="w-20 h-20 text-white svg-inline--fa fa-facebook sm:hover:text-blue-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="text-white w-14 h-14 svg-inline--fa fa-facebook sm:hover:text-blue-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -47,19 +49,18 @@ const WithFriends = () => {
               d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
             ></path>
           </svg>
+          </a>
+        <a target="blank" className="w-12 h-12 pb-6 m-2 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300" href="https://play.google.com/store?hl=es_AR&gl=US">
+          <img src={google} alt="googlePlay" />
         </a>
         <a
           target="_blank"
-          href="https://www.afip.gob.ar/landing/default.asp"
-        ></a>
-        <a
-          target="_blank"
           href="https://www.afip.gob.ar"
-          className="p-1 w-14 h-14"
+          className="p-1 w-14 h-14 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
         >
           <img
             src="https://latolderiaonline.com.ar/wp-content/themes/latolderia/source/img/data-fiscal.jpg"
-            alt="fiscal"
+            alt="afip"
           ></img>
         </a>
       </li>
