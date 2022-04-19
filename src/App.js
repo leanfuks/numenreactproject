@@ -1,21 +1,28 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import WithFriends from "./components/WithFriends";
-import Banner from "./components/Banner";
-import UltimasOfertas from "./components/UltimasOfertas";
-import QuienHace from "./components/QuienHace"
-import PorqueElegir from "./components/PorqueElegir"
+import NavBar from "..components/1NavBar"
+import Banner from "..components/2Banner"
+import LatestOffers from "..components/3LatestOffers"
+import WhyChoose from "..components/4WhyChoose";
+import WhoMakes from "..components/5WhoMakes";
+import OurPartners from "..components/6OurPartners";
+import SurpriseSomeone from "..components/7SurpriseSomeone";
+import Carousel from "..components/8Carousel";
+import TellAFriend from "..components/9TellAFriend";
+import Footer from "..components/10Footer";
+
 
 const App = () => {
   return (
     <div>
       <NavBar />
       <Banner />
-      <UltimasOfertas/>
-      <PorqueElegir/>
-      <QuienHace/>
-      <WithFriends />
+      <LatestOffers/>
+      <WhyChoose/>
+      <WhoMakes/> 
+      <OurPartners/> 
+      <SurpriseSomeone/>
+      <Carousel/>
+      <TellAFriend/>
       <Footer />
     </div>
   );
