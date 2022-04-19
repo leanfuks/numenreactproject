@@ -27,16 +27,14 @@ const footer = () => {
       </ul>
       <ul className="flex flex-col justify-center text-left h-64  w-96 ">
         <dt className="">
-          <strong> PROMOCIONES </strong>
+          <strong> INFORMACIÓN</strong>
         </dt>
-        <li> <a href="3LaterstOffers/index.jsx#ofertas">Ofertas</a> </li>
+        <li> <a href=".../3LaterstOffers/index.jsx#ofertas">Ofertas</a> </li>
         <li> <a target="blank" href="www.numenstore.com/pentregas">Puntos de Entrega</a> </li>
         <li> <a target="blank" href="www.numenstore.com/sucursales">Sucursales Numen Point</a> </li>
         <li> <a target="blank" href="www.numenstore.com/ncard">Numen Card Mastercard</a> </li>
         <li> <a target="blank" href="www.numenstore.com/pago">Medios de Pago</a> </li>
-
-
-        
+              
       </ul>
     </div>
   );

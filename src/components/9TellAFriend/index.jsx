@@ -2,12 +2,11 @@ import google from "../Imagenes/google.png"
 
 const WithFriends = () => {
   return (
-    <ul className="w-full h-48 font-serif bg-blue-300">
-      <li className="p-3 font-serif text-center">
+    <ul className="flex justify-center w-full h-48 font-calibri bg-blue-300">
+      <li className="flex flex-col p-3 font-calibri text-center w-15 h-full bg-red-500">
         ¡Suscribete, comparte con un amigo y reciban nuevas promociones!
-      </li>
-      <li className="p-3 text-center ">¡Descarga nuestra App Mobile!</li>
-      <li className="flex flex-row flex-wrap content-center justify-center h-10 m-4">
+        <li> ¡Descarga nuestra App Mobile!</li>
+        <li className="flex flex-row flex-wrap content-center justify-center bg-red-200">
         <a target="_blank" href="https://web.whatsapp.com/">
           <svg
             data-icon="whatsapp"
@@ -64,6 +63,12 @@ const WithFriends = () => {
           ></img>
         </a>
       </li>
+
+
+        
+      </li>
+      
+      
     </ul>
   );
 };
