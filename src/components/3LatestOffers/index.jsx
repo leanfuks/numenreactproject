@@ -5,7 +5,7 @@ import portaLlaves from "../Imagenes/portaLlaves.jpg";
 import escritorio from "../Imagenes/escritorio.jpg";
 import Tele from "../Extras/Tele";
 
-const UltimasOfertas = () => {
+const latestoffers = () => {
   return (
     <>
       <p className="p-2 font-serif text-xl text-center bg-blue-200">
@@ -113,4 +113,4 @@ const UltimasOfertas = () => {
   );
 };
 
-export default UltimasOfertas;
+export default latestoffers;
