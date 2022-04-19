@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NavBar = () => {
+const SurpriseSomeone = () => {
   return (
-    <nav className="bg-green-500 py-12 text-center">NavBar</nav>
+    <nav className="bg-green-500 py-12 text-center">SurpriseSomeone</nav>
   )
 }
 
-export default NavBar
+export default SurpriseSomeone

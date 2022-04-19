@@ -1,9 +1,9 @@
 import React from 'react'
 
-const NavBar = () => {
+const Carousel = () => {
   return (
-    <nav className="bg-green-500 py-12 text-center">NavBar</nav>
+    <nav className="bg-green-500 py-12 text-center">Carousel</nav>
   )
 }
 
-export default NavBar
+export default Carousel
