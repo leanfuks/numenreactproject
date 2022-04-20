@@ -8,11 +8,13 @@ import Tele from "../Extras/Tele";
 const latestoffers = () => {
   return (
     <>
-      <p className="p-2 font-serif text-xl text-center bg-blue-200">
+      <p className="p-2 font-calibri text-xl text-center bg-blue-100">
         <strong>¡ULTIMAS OFERTAS!</strong>
       </p>
-      <div id="ofertas" className="flex flex-wrap justify-center w-full p-0 m-0 font-serif bg-blue-200">
-        <ul className="m-4 font-serif bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
+      <div id="ofertas" className="flex flex-wrap justify-center w-full p-0 m-0 font-calibri bg-blue-200">
+        
+        
+        <ul className="m-4 font-calibri bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
           <li>
             <img
               src={tv}
@@ -34,7 +36,7 @@ const latestoffers = () => {
           </li>
         </ul>
 
-        <ul className="m-4 font-serif bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
+        <ul className="m-4 font-calibri bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
           <li>
             <img
               src={bici}
@@ -59,7 +61,7 @@ const latestoffers = () => {
           </li>
         </ul>
 
-        <ul className="m-4 font-serif bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
+        <ul className="m-4 font-calibri bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
           <li>
             <img
               src={portaLlaves}
@@ -84,7 +86,7 @@ const latestoffers = () => {
           </li>
         </ul>
 
-        <ul className="m-4 font-serif bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
+        <ul className="m-4 font-calibri bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
           <li>
             <img
               src={escritorio}
