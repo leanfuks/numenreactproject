@@ -25,7 +25,7 @@ const footer = () => {
    
         
       </ul>
-      <ul className="flex flex-col ml-4  justify-center text-left h-64  w-80 ">
+      <ul className="flex flex-col ml-4  justify-center text-left h-64  w-72 ">
         <dt className="">
           <strong> INFORMACIÓN</strong>
         </dt>
