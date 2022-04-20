@@ -2,7 +2,7 @@ import React from 'react'
 
 const SurpriseSomeone = () => {
   return (
-    <nav className="bg-green-500 py-12 text-center">SurpriseSomeone</nav>
+    <nav className="bg-yellow-400 py-12 text-center">SurpriseSomeone</nav>
   )
 }
 

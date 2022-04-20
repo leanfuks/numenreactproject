@@ -1,37 +1,34 @@
 import React from "react";
 import delivery from "../Imagenes/delivery.png"
-import Nosotros from "./Nosotros";
-const nosotros = () => {
+import Nosotros from "./Nosotros.jsx";
+const WhoMakes= () => {
   return (
-    <div className="flex flex-row flex-wrap p-6 font-serif bg-blue-400">
-      <ul className="w-auto h-64 pl-20">
+    <div className="flex justify-center items-center text-justify flex-row flex-wrap w-full h-100  font-calibri bg-blue-200">
+      <ul className="  bg-red-500">
         <dt className="pb-4">
-          <strong>UN POCO SOBRE NOSOTROS:</strong>
+          <strong>¿Quiénes somos?</strong>
         </dt>
-        <li className="pb-10 list-disc">
-          Comenzamos en este mundo de la compra-venta a fines de lograr un
-          cambio en el mercado.
+        <li className="pb-10">
+          Comenzamos este proyecto para lograr un cambio en el mercado, acercando la tecnología a tu alcance.
         </li>
-        <li className="pb-10 list-disc">
-          Optimizado y empleando nuevas tecnicas para la comodidad de nuetros
-          consumidores, adquiriendo las mejores marcas, precios y calidad.
+        <li className="pb-10">
+          Optimizamos y empleamos técnicas de satisfacción en la experiencia de usuario al utilizar nuestros servicios.
         </li>
-        <li className="pb-10 list-disc">
-          Somos lideres en el mercado de forma sustentable, con nuestro innovador packagin biodegradable y compostable!
+        <li className="pb-10">
+          Somos una empresa certificada con ISO 14001, empleando packing sustentable y ¡100% compostable!
         </li>
-        <li className="pb-10 list-disc">
-          Nos embarcamos a que tenga una magnifica experiencia de uso con
-          nosotros y apostando a que nos siga eligiendo!
+        <li className="pb-10">
+          Nuestros vehículos de logística son 100% eléctricos, apostamos a disminuir todos los días la emisión de CO2.
         </li>
         <li>
-        <button className="w-20 h-6 bg-blue-200 rounded sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:hover:bg-blend-hard-light sm:duration-300"><a target="blank" href={Nosotros}> Leer mas</a></button>
+        <button className="w-20 h-6 bg-blue-500 rounded sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:hover:bg-blend-hard-light sm:duration-300"><a target="blank" href={Nosotros}> Leer más</a></button>
         </li>
       </ul>
-      <ul className="pl-10 m-2 w-80 h-96">
+      <ul className=" flex  pl-10 m-2 w-80 h-96">
         <img src={delivery} alt="imagen delivery" width="250px" />
       </ul>
     </div>
   );
 };
 
-export default nosotros;
+export default WhoMakes;

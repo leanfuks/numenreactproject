@@ -3,14 +3,15 @@ import google from "../Imagenes/google.png"
 const WithFriends = () => {
   return (
     <ul className="flex justify-center w-full h-48 font-calibri bg-blue-300">
-      <li className="flex flex-col p-3 font-calibri text-center w-15 h-full bg-red-500">
-        ¡Suscribete, comparte con un amigo y reciban nuevas promociones!
+      <li className="flex flex-col p-3 font-calibri justify-center text-center w-15 h-full">
+        ¡Suscribite, comparti y recibi nuevas promociones!
         <li> ¡Descarga nuestra App Mobile!</li>
-        <li className="flex flex-row flex-wrap content-center justify-center bg-red-200">
+       
+        <li className="flex flex-row flex-wrap content-center justify-center">
         <a target="_blank" href="https://web.whatsapp.com/">
           <svg
             data-icon="whatsapp"
-            className="text-white w-14 h-14 svg-inline--fa fa-whatsapp sm:hover:text-green-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="text-white w-14 h-14 mt-4 svg-inline--fa fa-whatsapp sm:hover:text-green-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -24,7 +25,7 @@ const WithFriends = () => {
         <a target="_blank" href="https://www.instagram.com">
           <svg
             data-icon="instagram"
-            className="text-white w-14 h-14 svg-inline--fa fa-instagram sm:hover:text-violet-300 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="text-white w-14 h-14 mt-4 svg-inline--fa fa-instagram sm:hover:text-violet-300 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -38,7 +39,7 @@ const WithFriends = () => {
         <a target="blank" href="https://es-la.facebook.com/">
           <svg
             data-icon="facebook"
-            className="text-white w-14 h-14 svg-inline--fa fa-facebook sm:hover:text-blue-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+            className="text-white w-14 h-14 mt-4 svg-inline--fa fa-facebook sm:hover:text-blue-500 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
@@ -49,13 +50,13 @@ const WithFriends = () => {
             ></path>
           </svg>
           </a>
-        <a target="blank" className="w-12 h-12 pb-6 m-2 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300" href="https://play.google.com/store?hl=es_AR&gl=US">
+        <a target="blank" className="w-12 mt-4 h-12 pb-6 mb-2 ml-1 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300" href="https://play.google.com/store?hl=es_AR&gl=US">
           <img src={google} alt="googlePlay" />
         </a>
         <a
           target="_blank"
           href="https://www.afip.gob.ar"
-          className="p-1 w-14 h-14 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300"
+          className=" w-10 h-12 ml-1 mt-4 sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:duration-300 "
         >
           <img
             src="https://latolderiaonline.com.ar/wp-content/themes/latolderia/source/img/data-fiscal.jpg"

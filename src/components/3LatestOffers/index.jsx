@@ -11,7 +11,7 @@ const latestoffers = () => {
       <p className="p-2 font-serif text-xl text-center bg-blue-200">
         <strong>¡ULTIMAS OFERTAS!</strong>
       </p>
-      <div className="flex flex-wrap justify-center w-full p-0 m-0 font-serif bg-blue-200">
+      <div id="ofertas" className="flex flex-wrap justify-center w-full p-0 m-0 font-serif bg-blue-200">
         <ul className="m-4 font-serif bg-blue-500 rounded-lg rounded-t-xl item-center w-80 h-80">
           <li>
             <img
