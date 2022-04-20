@@ -2,7 +2,7 @@ import React from "react";
 import tv from "../Imagenes/tv.png";
 import bici from "../Imagenes/bici.png";
 import celu from "../Imagenes/celu.png";
-import escritorio from "../Imagenes/escritorio.jpg";
+import note from "../Imagenes/notebook.png";
 
 
 const latestoffers = () => {
@@ -91,17 +91,17 @@ const latestoffers = () => {
         <ul className="font-calibri bg-blue-200 rounded-2xl  w-50 h-70">
           <li>
             <img
-              src={tv}
-              alt="Imagen TV TLC"
+              src={note}
+              alt="Imagen Notebook Acer Nitro 5"
               className="h-40 p-2 w-45"
             />
           </li>
           <li className="m-2 font-bold text-center ">
-            Smart TV 4K 150" TCL
+            Notebook Acer Nitro 5
           </li>
-          <li className=" flex flex-row justify-center items-center font-semibold text-center text-red-500">SALE! 290.000
+          <li className=" flex flex-row justify-center items-center font-semibold text-center text-red-500">SALE! 185.000
           <li className=" ml-2 text-sm font-normal text-black line-through ">
-            $390.000</li>
+            $230.000</li>
           
           </li>
           <li className="m-2 text-center bg-blue-300 rounded-lg">

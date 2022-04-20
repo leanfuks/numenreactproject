@@ -9,7 +9,7 @@ const footer = () => {
         </dt>
         <li>Atención al Cliente: 0810-0000-00000</li>
         <li>Reclamos: 0810-0000-00010</li>
-        <li>Mail: <a href="mailto:logistica@numenstore.com">contacto@numenstore.com </a></li>
+        <li>Mail: <a href="mailto:contacto@numenstore.com">contacto@numenstore.com </a></li>
         <li>Envios: <a href="mailto:logistica@numenstore.com">logistica@numenstore.com </a></li>
         <li> <a target="blank" href="www.numenstore.com/cancelacion"> Botón de Arrepentimiento </a></li>
       </ul>

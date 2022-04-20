@@ -1,23 +1,29 @@
 import React from "react";
-import delivery from "../Imagenes/delivery.png"
+import delivery from "../Imagenes/delivery.png";
 import Nosotros from "./Nosotros.jsx";
+import tilde from "../Imagenes/tilde.png";
+
 const WhoMakes= () => {
   return (
     <div className="flex justify-center items-center text-justify flex-row flex-wrap w-full h-100  font-calibri bg-blue-100">
       <ul className="m-4">
-        <dt className="pb-4l ">
+        <dt className="pb-4">
           <strong>¿Quiénes somos?</strong>
         </dt>
-        <li className="pb-10">
+        <li className="flex flex-row pb-10">
+        <img className="flex mr-1 flex-row h-5 w-6" src={tilde} alt="Logo Numen Store" />
           Comenzamos este proyecto para lograr un cambio en el mercado, acercando la tecnología a tu alcance.
         </li>
-        <li className="pb-10">
+        <li className="flex flex-row pb-10">
+        <img className="flex mr-1 flex-row h-5 w-6" src={tilde} alt="Logo Numen Store" />
           Optimizamos y empleamos técnicas de satisfacción en la experiencia de usuario al utilizar nuestros servicios.
         </li>
-        <li className="pb-10">
+        <li className="flex flex-row pb-10">
+        <img className="flex mr-1 flex-row h-5 w-6" src={tilde} alt="Logo Numen Store" />
           Somos una empresa certificada con ISO 14001, empleando packing sustentable y ¡100% compostable!
         </li>
-        <li className="pb-10">
+        <li className="flex flex-row pb-10">
+        <img className="flex mr-1 flex-row h-5 w-6" src={tilde} alt="Logo Numen Store" />
           Nuestros vehículos de logística son 100% eléctricos, apostamos a disminuir todos los días la emisión de CO2.
         </li>
         <li>
