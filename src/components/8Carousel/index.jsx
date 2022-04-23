@@ -2,8 +2,9 @@ import React from 'react'
 
 const Carousel = () => {
   return (
-    <nav className="bg-green-200 py-12 text-center">Carousel</nav>
+    <div className="bg-purple-300 py-12 text-center">Carousel</div>
   )
 }
 
 export default Carousel
+
