@@ -1,6 +1,5 @@
 import React from "react";
 import delivery from "../Imagenes/delivery.png";
-import Nosotros from "./Nosotros.jsx";
 import tilde from "../Imagenes/tilde.png";
 
 const WhoMakes= () => {
@@ -27,7 +26,7 @@ const WhoMakes= () => {
           Nuestros vehículos de logística son 100% eléctricos, apostamos a disminuir todos los días la emisión de CO2.
         </li>
         <li>
-        <button className="w-20 h-6 bg-blue-500 rounded sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:hover:bg-blend-hard-light sm:duration-300"><a target="blank" href={Nosotros}> Leer más</a></button>
+        <button className="w-20 h-6 bg-blue-500 rounded sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:hover:bg-blend-hard-light sm:duration-300"><a target="blank" href=""> Leer más</a></button>
         </li>
       </ul>
       <ul className=" flex flex-nowrap pl-10 m-2 w-50 h-100">
