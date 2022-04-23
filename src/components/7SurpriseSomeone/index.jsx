@@ -7,7 +7,7 @@ const surprisesomeone = () => {
       <ul className='flex justify-center flex-row  flex-wrap mt-6 mb-6'>
         <img className='w-96' src={sur} alt='imagen de soprender a alguien' />
 
-        <ul className='w-2/4  ml-6'>
+        <ul className='w-2/4  ml-12'>
           <strong className='text-xl'>¡Sorprende a alguien!</strong>
 
           <li className='text-lg pb-4 '>Mixtery Box Cumpleaños</li>
