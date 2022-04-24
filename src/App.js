@@ -11,10 +11,10 @@ import TellAFriend from './components/9TellAFriend'
 import Footer from "./components/10Footer"
 
 
+
 const App = () => {
   return (
-    <div>
-      
+    <div> 
       <NavBar/>
       <Banner />
       <LatestOffers/>
@@ -25,13 +25,6 @@ const App = () => {
       <Carousel/>
       <TellAFriend/>
       <Footer/>
-      
-      
-     
-    
-      
-      
-      
     </div>
   )
 }
