@@ -7,14 +7,12 @@ import note from "../Imagenes/notebook.png";
 
 const latestoffers = () => {
   return (
-    <>
-      
-      <div className="flex flex-wrap space-x-4 space-y-2 p-6 justify-center items-center font-calibri bg-blue-100 w-full h-auto">
-        <p className="flex mb-2 justify-center items-center font-calibri text-xl w-full h-30 bg-blue-100">
+      <div className="flex flex-wrap items-center justify-center w-full h-auto p-6 space-x-4 space-y-2 bg-blue-100 font-calibri">
+        <p className="flex items-center justify-center w-full mb-2 text-xl bg-blue-100 font-calibri h-30">
         <strong>¡ÚLTIMAS OFERTAS!</strong>
       </p>
         
-        <ul className="font-calibri bg-blue-200 rounded-2xl  w-50 h-70">
+        <ul className="bg-blue-200 font-calibri rounded-2xl w-50 h-70">
           <li>
             <img
               src={tv}
@@ -25,8 +23,8 @@ const latestoffers = () => {
           <li className="m-2 font-bold text-center ">
             Smart TV 4K 150" TCL
           </li>
-          <li className=" flex flex-row justify-center items-center font-semibold text-center text-red-500">SALE! 290.000
-          <li className=" ml-2 text-sm font-normal text-black line-through ">
+          <li className="flex flex-row items-center justify-center font-semibold text-center text-red-500 ">SALE! 290.000
+          <li className="ml-2 text-sm font-normal text-black line-through ">
             $390.000</li>
           
           </li>
@@ -40,7 +38,7 @@ const latestoffers = () => {
 
 
 
-        <ul className="font-calibri bg-blue-200 rounded-2xl  w-50 h-70">
+        <ul className="bg-blue-200 font-calibri rounded-2xl w-50 h-70">
           <li>
             <img
               src={bici}
@@ -51,8 +49,8 @@ const latestoffers = () => {
           <li className="m-2 font-bold text-center ">
             Mountain Bike Peugeot 26"
           </li>
-          <li className=" flex flex-row justify-center items-center font-semibold text-center text-red-500">SALE! 140.500
-          <li className=" ml-2 text-sm font-normal text-black line-through ">
+          <li className="flex flex-row items-center justify-center font-semibold text-center text-red-500 ">SALE! 140.500
+          <li className="ml-2 text-sm font-normal text-black line-through ">
             $198.000</li>
           
           </li>
@@ -64,7 +62,7 @@ const latestoffers = () => {
         </ul>
 
 
-        <ul className="font-calibri bg-blue-200 rounded-2xl  w-50 h-70">
+        <ul className="bg-blue-200 font-calibri rounded-2xl w-50 h-70">
           <li>
             <img
               src={celu}
@@ -75,8 +73,8 @@ const latestoffers = () => {
           <li className="m-2 font-bold text-center ">
             Samsung S20 Ultra
           </li>
-          <li className=" flex flex-row justify-center items-center font-semibold text-center text-red-500">SALE! 200.000
-          <li className=" ml-2 text-sm font-normal text-black line-through ">
+          <li className="flex flex-row items-center justify-center font-semibold text-center text-red-500 ">SALE! 200.000
+          <li className="ml-2 text-sm font-normal text-black line-through ">
             $260.000</li>
           
           </li>
@@ -88,7 +86,7 @@ const latestoffers = () => {
         </ul>
 
 
-        <ul className="font-calibri bg-blue-200 rounded-2xl  w-50 h-70">
+        <ul className="bg-blue-200 font-calibri rounded-2xl w-50 h-70">
           <li>
             <img
               src={note}
@@ -99,8 +97,8 @@ const latestoffers = () => {
           <li className="m-2 font-bold text-center ">
             Notebook Acer Nitro 5
           </li>
-          <li className=" flex flex-row justify-center items-center font-semibold text-center text-red-500">SALE! 185.000
-          <li className=" ml-2 text-sm font-normal text-black line-through ">
+          <li className="flex flex-row items-center justify-center font-semibold text-center text-red-500 ">SALE! 185.000
+          <li className="ml-2 text-sm font-normal text-black line-through ">
             $230.000</li>
           
           </li>
@@ -112,7 +110,6 @@ const latestoffers = () => {
         </ul>
       
       </div>
-    </>
   );
 };
 
