@@ -26,11 +26,13 @@ import tv from '../Imagenes/tv.png'
       const scrollToImage = i => {
         setCurrentImage(i);
         
-        refs[i].current.scrollIntoView(images.length[0,1,2]
-        // behavior: 'smooth', 
-          // block: 'nearest',
+        refs[i].current.scrollIntoView(
+          // images.length[i],
+        {
+          // behavior: 'smooth', 
+          block: 'nearest',
           // inline: 'start',
-        );
+        });
       };
 
       const nextImage = () => {
