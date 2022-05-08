@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from "./components/1NavBar";
 import Banner from './components/2Banner';
 import LatestOffers from './components/3LatestOffers'
-import WhyChoose from './components/4WhyChoose'
+import WhyChoose from './components/4WhyChoose/index'
 import WhoMakes from './components/5WhoMakes'
 import OurPartners from './components/6OurPartners'
 import SurpriseSomeone from './components/7SurpriseSomeone'
@@ -30,3 +30,4 @@ const App = () => {
 }
 
 export default App
+
