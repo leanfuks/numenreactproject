@@ -7,9 +7,11 @@ import note from "../Imagenes/notebook.png";
 
 const latestoffers = () => {
   return (
-      <div className="flex flex-wrap items-center justify-center w-full h-auto p-6 space-x-4 space-y-2 bg-blue-100 font-calibri">
+
+      
+      <div className="flex flex-wrap justify-center w-full h-auto p-6 space-x-4 space-y-2 bg-blue-100 font-calibri">
         <p className="flex items-center justify-center w-full mb-2 text-xl bg-blue-100 font-calibri h-30">
-        <strong>¡ÚLTIMAS OFERTAS!</strong>
+        <strong>¡Últimas Ofertas!</strong>
       </p>
         
         <ul className="bg-blue-200 font-calibri rounded-2xl w-50 h-70">
