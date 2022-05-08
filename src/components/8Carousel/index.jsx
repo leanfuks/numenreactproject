@@ -75,9 +75,9 @@ import tv from '../Imagenes/tv.png'
           
               <ul>
               {sliderControl(true)}
-              <li className="inline-flex overflow-hidden snap-x mandatory">
+              <li className="inline-flex overflow-hidden snap-x mandatory ">
               {images.map((img, i) => (
-                <div className="inline-flex justify-center flex-shrink-0 m-4 border-4" key={img} ref={refs[i]}>
+                <div className="inline-flex justify-center flex-shrink-0 m-4 border-4 " key={img} ref={refs[i]}>
                   <img src={img} className="object-scale-down w-52 h-52" />
                 </div>
               ))}
