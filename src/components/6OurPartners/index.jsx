@@ -4,23 +4,28 @@ import socio from '../Imagenes/socio.png';
 const OurPartners = () => {
 const partner={
   imagen: socio,
-  name: 'Academia Numen',
-  enlace:"https://ar.academianumen.com/?gclid=Cj0KCQjwyMiTBhDKARIsAAJ-9Vu43NuXucqnZgfyHBQOEptoS-i_Dyoq6R3zTZmrXCzEeu8_fP148wsaAn3uEALw_wcB"
+  name: 'Fundación BA Study',
+  enlace:""
 }
 
   return (
-    <div className='flex justify-center items-center w-full h-96 bg-blue-100' >
-      <img className='absolute w-7/12 h-96  ' src={fondo} alt="tecno" />
-      <div className='flex flex-col items-center w-auto'>
-      <strong className='relative text-blue font-calibri text-2xl'>Nuestros socios</strong>
-    <img className='relative h-12 m-10 w-52 ' src={partner.imagen} alt="nuestros-socios" />
-      <button className='relative px-2 bg-blue-300 rounded-lg'>
-        <a href={partner.enlace}>
-        Conocé más de {partner.name}</a></button>
+    <div className='flex justify-center items-center h-96 w-full bg-blue-100'>
+      <div className='flex flex-col justify-center items-center w-7/12 h-96'>
+        <img className='object-fit absolute h-96 p-4' width="1150px" src={fondo} alt="tecno"/> 
+        <strong className='flex flex-row flew-wrap relative text-blue font-calibri m text-2xl'>Nuestro socio, BA Study
+        
+        </strong>
+        
+        <img className='relative h-24 m-10 w-30 ' src={partner.imagen} alt="nuestros-socios" />
+        <button className='relative px-2 bg-blue-300 rounded-lg'>
+          <a href={partner.enlace}>
+            Conocé más de {partner.name}</a></button>
       </div>
     </div>
 
     )
+
+
 }
 
 export default OurPartners
