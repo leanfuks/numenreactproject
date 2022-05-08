@@ -1,19 +1,18 @@
 import React from 'react';
 import {useState} from 'react';
-import { createRef } from 'react';
-import { Component } from 'react';
-import bici from '../Imagenes/bici.png'
-import celu from '../Imagenes/celu.png'
-import delivery from '../Imagenes/delivery.png'
-import google from '../Imagenes/google.png'
-import logo from '../Imagenes/logo.png'
-import notebook from '../Imagenes/notebook.png'
-import tilde from '../Imagenes/tilde.png'
-import tv from '../Imagenes/tv.png'
+import {createRef } from 'react';
+import gaming from "../Imagenes/gaming.png"
+import nbnitro from "../Imagenes/nbnitro.png"
+import tvsamg from "../Imagenes/tvsamg.png"
+import imac from "../Imagenes/imac.png"
+import drone from "../Imagenes/drone.png"
+import iphone from "../Imagenes/iphone.jpeg"
+import celu from "../Imagenes/celusam.png"
+
 
 
     const images = 
-    ['https://images.unsplash.com/photo-1506501139174-099022df5260?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80', 'https://images.unsplash.com/photo-1523438097201-512ae7d59c44?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80', 'https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',bici, celu, delivery, google, logo, notebook, tilde,tv ]
+    [gaming,nbnitro,tvsamg,imac,drone,iphone,celu]
 
     
     const Carousel = () => {
@@ -66,17 +65,17 @@ import tv from '../Imagenes/tv.png'
       );
     
       return (
-        <div>
-          <p className='text-center'><a href="" className='text-blue-500'>@NumenStore  </a> en Instagran:</p>
-              <div className="flex items-center justify-center w-full  p-12  md:w-100% h-58 " >
-          <div className="relative w-full">
+        <div className='flex flex-col justify-center items-center bg-blue-100 w-full'>
+          <p className='mt-4 text-xl text-center font-bold '><a href="" className='text-blue-500'>@NumenStore  </a> en Instagram</p>
+              <div className="flex justify-center items-center  w-2/4 h-58 " >
+          <div className="relative w-auto">
           
               <ul>
               {sliderControl(true)}
-              <li className="inline-flex overflow-hidden snap-x mandatory">
+              <li className="flex justify-center items-center w-auto  overflow-hidden min-width: 0">
               {images.map((img, i) => (
-                <div className="inline-flex justify-center flex-shrink-0 m-4 border-4" key={img} ref={refs[i]}>
-                  <img src={img} className="object-scale-down w-52 h-52" />
+                <div className=" bg-green-500 shrink-0  m-4 border-4 w-auto" key={img} ref={refs[i]}>
+                  <img src={img} className="object-fit w-52 h-52" />
                 </div>
               ))}
               {sliderControl()}
