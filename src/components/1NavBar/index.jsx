@@ -1,42 +1,44 @@
+import { navigationBar } from "../../data";
 import logo from "../Imagenes/logo.png"
+import search from "../Imagenes/search.png"
+import shop from "../Imagenes/shop.png"
+import user from "../Imagenes/user.png"
 
 const NavBar = () => {
 
-  const navigationBar = [
-    { id: 1, section: "Home" },
-    { id: 2, section: "Categories" },
-    { id: 3, section: "Offers" },
-    { id: 4, section: "WhyChoose" },
-    { id: 5, section: "About Us" }
-  ];
-
-  const options = [
-    { id: 1, section: "Usuario" },
-    { id: 2, section: "Busqueda" },
-    { id: 3, section: "Carrito" }
-  ];
-  return (
-    <div className="flex flex-row flex-wrap content-center justify-between h-40 mx-auto bg-blue-100 p5">
-
-      <a href="www.numenstore.com"> <img className="flex flex-row p-4 h-35 w-60" src={logo} alt="Logo Numen Store" /></a>
-
-      
-        <ul className="flex flex-row justify-center p-2 space-x-8 text-center xl mt-14 h-30 w-fit">
-          {navigationBar.map(seccion => {
-            return <li key={seccion.id}> {seccion.section} </li>
-          })}
-        </ul>
 
 
 
-        <ul className="flex flex-row p-2 space-x-4 text-right mt-14 h-30 w-25">
-          {options.map(seccion => {
-            return <li key={seccion.id}> {seccion.section} </li>
-          })}
-        </ul>
+return (
+  <div className="sm:flex flex-row justify-between px-1 py-1 text-md font-serif text-cyan-800  text-center bg-blue-100">
+
+    <a href="www.numenstore.com"><img className=" h-28 p-1 w-60 " src={logo} alt="NumenStore" /></a>
+
     
-    </div>
-  )
-}
+      {navigationBar.map((seccion) => (
+        <nav key={seccion.id}>
+        <ul className=" ease-in-out delay-80 hover:-translate-y-1 hover:scale-110 hover:bg-blend-hard-light duration-300 h-1 list-none justify-items-center mt-20 ">
+          <li>
+            <button> {seccion.button} </button>
+          </li>
+        </ul>
+        </nav >
+      )
+      )}
+    
+    
+      <ul className=" ml-10 px-2 mt-20 list-none space-between">
+        <li className=" mx-4">
+          <button> <img className="ease-in-out delay-80 hover:-translate-y-1 hover:scale-110 hover:bg-blend-hard-light duration-300 w-9 h-8 mx-1" src={search} alt="search" /> </button>
+          <button> <img className="ease-in-out delay-80 hover:-translate-y-1 hover:scale-110 hover:bg-blend-hard-light duration-300 w-9 h-8 mx-1" src={shop} alt="carrito" /></button>
+          <button> <img className="ease-in-out delay-80 hover:-translate-y-1 hover:scale-110 hover:bg-blend-hard-light duration-300 w-9 h-8 mx-1" src={user} alt="usuario" /></button>
+          
+        </li>
+      </ul>
+    
+    
+  </div>
+)
+};
 
 export default NavBar
