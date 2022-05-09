@@ -1,9 +1,10 @@
 export const navigationBar = [
-    { id: 1, button: "Brands", },
-    { id: 2, button: "Categories" },
-    { id: 3, button: "Offers" },
-    { id: 4, button: "Social", },
-    { id: 5, button: "About Us" }
+    { id: 1, button: "Home", },
+    { id: 2, button: "Informatica" },
+    { id: 3, button: "Electro" },
+    { id: 4, button: "Think Green", },
+    { id: 5, button: "Celulares" },
+    { id: 6, button: "Sobre nosotros" }
     ];
 
     export const options = [
