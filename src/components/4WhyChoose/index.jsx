@@ -1,104 +1,92 @@
-import React from "react";
-import icon1 from "../Imagenes/icon1.jpg";
-import icon2 from "../Imagenes/icon2.jpg";
-import icon3 from "../Imagenes/icon3.jpg";
-import icon4 from "../Imagenes/icon4.jpg";
-import icon5 from "../Imagenes/icon5.jpg";
+import React from 'react'
+import sus from '../Imagenes/sus.png'
+import huella from '../Imagenes/huella.png'
+import bio from '../Imagenes/bio.png'
+import pul from '../Imagenes/pulgar.png'
+import card from '../Imagenes/card.png'
 
-
-const WhyChoose = () => {
+const whychoose = () => {
   return (
+    <>
+      <div className='flex flex-wrap pb-15 space-x-4 space-y-2 p-6 justify-center items-center font-calibri bg-blue-100 w-full h-auto'>
+        <p className='flex mb-2 justify-center items-center font-calibri text-xl w-full h-30 bg-blue-100'>
+          <strong>¿Por que elegir Numen Store?</strong>
+        </p>
 
-    <div>
-        <h1 className="flex flex-wrap justify-center w-full h-full mt-4 text-4xl font-extrabold font-calibri">
-        ¿Porque Elegir Nuestros Productos?
-         </h1>
-    <div className="flex flex-wrap justify-center w-full h-full grid-cols-5 col-span-10 gap-3 mt-10 md:grid-cols-12">
-         <div className="col-span-5 md:col-span-2 ">
-         <ul className="m-4 font-serif rounded-lg rounded-t-xl item-center h-80">
+        <ul className='font-calibri w-50 h-60 '>
           <li>
-            <img src={icon1} className="p-2 rounded-lg w-30 h-30 justify-items-center"/>
-            </li>
-            <li className="text-lg italic font-bold text-blue-900">Descubre Nuevos Productos</li>
-            <li className="mt-6 text-base italic ">
-              <p>Descubra nuestros productos,</p>
-              <p>ofrecemos productos con </p>
-               <p>diseños exclusivos y</p>
-              <p> tecnologias innovadoras que</p>
-              <p>se adaptan a cada una</p>
-              <p>de sus necesidades.</p>
-              </li>
-          </ul>
-          </div>
-         <div className="col-span-5 md:col-span-2">
-         <ul className="m-3 font-serif rounded-lg rounded-t-xl item-center h-80">
+            <img
+              src={sus}
+              alt='Logo Sustentabilidad'
+              className='mb-4 flex justify-items-start h-10 p-0 w-15'
+            />
+          </li>
+          <li className=' mb-2 font-semibold  text-left '>Sustentabilidad</li>
+          <li className='  w-48 h-38 flex  text-left'>
+            Somos una empresa certificada con normas internaciones que ofrece
+            productos 100% amigables con el medio ambiente.
+          </li>
+        </ul>
+
+        <ul className='font-calibri w-50 h-60 '>
           <li>
-            <img src={icon2} className="p-2 rounded-lg w-30 h-30 "/>
-            </li>
-            <p className="text-lg italic font-bold text-blue-900">Compras Al Por Mayor</p>
-            <li className="mt-6 text-base italic">
-              <p>Ofrecemos una variedad</p>
-              <p>de productos exclusivos </p>
-               <p>y de gran utilidad</p>
-              <p>pudiendo ahorrar dinero</p>
-              <p>comprando por mayor</p>
-              <p>a un gran precio.</p>
-              </li>
-          </ul>
-         </div>
-         <div className="col-span-5 md:col-span-2">
-         <ul className="m-3 font-serif rounded-lg rounded-t-xl item-center h-80">
+            <img
+              src={huella}
+              alt='Logo Huella CO2'
+              className='mb-4 flex justify-items-start h-10 p-0 w-15'
+            />
+          </li>
+          <li className=' mb-2 font-semibold  text-left '>Emisiones de CO2</li>
+          <li className='  w-48 h-38 flex  text-left'>
+            Reducimos al máximo nuestra huella de carbono utilizando vehículos
+            eléctricos y electricidad solar en todas nuestras instalaciones.
+          </li>
+        </ul>
+
+        <ul className='font-calibri w-50 h-60 '>
           <li>
-            <img src={icon3} className="p-2 rounded-lg w-30 h-30"/>
-            </li>
-            <li className="text-lg italic font-bold text-blue-900">Produccion Local</li>
-            <li className="mt-6 text-base italic">
-              <p>Al comprar por </p>
-              <p>mayor nuestros</p>
-              <p>productos, apoyas</p>
-              <p>el desarollo de </p>
-              <p>emprendedores locales</p>
-              <p>y el crecimiento</p>
-              <p>de empleos.</p>
-              </li>
-          </ul>
-         </div>
-         <div className="col-span-5 md:col-span-2">
-         <ul className="m-5 font-serif rounded-lg rounded-t-xl item-center h-80">
+            <img
+              src={bio}
+              alt='Logo Packing Biodegradable'
+              className='mb-4 flex justify-items-start h-10 p-0 w-15'
+            />
+          </li>
+          <li className=' mb-2 font-semibold  text-left '>Compromiso con el planeta</li>
+          <li className='  w-48 h-38 flex  text-left'>
+            Tanto nuestros paquetes como envoltorios son totalmente biodegradables, podes usarlos para abonar la tierra.
+          </li>
+        </ul>
+
+        <ul className='font-calibri w-50 h-60 '>
           <li>
-            <img src={icon4} className="p-2 rounded-lg w-30 h-30"/>
-            </li>
-            <li className="text-lg italic font-bold text-blue-900" >Compromiso De Calidad</li>
-            <li className="mt-6 text-base italic">
-              <p>Siendo la calidad </p>
-              <p>el pilar fundamental</p>
-              <p>del negocio</p>
-              <p>todos nuestros productos</p>
-               <p>estan sujetos a </p>
-              <p>estrictos controles</p>
-               <p> de calidad.</p>
-              </li>
-          </ul>
-          
-         </div>
-         <div className="col-span-5 md:col-span-2">
-         <ul className="m-5 font-serif rounded-lg rounded-t-xl item-center h-80">
+            <img
+              src={pul}
+              alt='Logo Satisfaccion clientes'
+              className='mb-4 flex justify-items-start h-10 p-0 w-15'
+            />
+          </li>
+          <li className=' mb-2 font-semibold  text-left '>Satisfacción del cliente</li>
+          <li className='  w-48 h-38 flex  text-left'>
+            Ofrecemos la mejor experiencia de compra del mercado, con clientes totalmente satisfechos. Si no es así, te devolvemos todo tu dinero.
+          </li>
+        </ul>
+
+        <ul className='font-calibri w-50 h-60 '>
           <li>
-            <img src={icon5} className="p-2 rounded-lg w-30 h-30"/>
-            </li>
-            <li className="text-lg italic font-bold text-blue-900">Satisfaccion Del Cliente</li>
-            <li className="mt-6 text-base italic">
-                <p>Nuestro objetivo es </p>
-                <p>asegurar su satisfaccion</p>
-                <p>con el producto</p>
-                <p>recibido y la</p>
-                <p>atencion brindada.</p>
-              </li>
-          </ul>
-         </div>
+            <img
+              src={card}
+              alt='Logo Numen Card'
+              className='mb-4  flex justify-items-start h-10 p-0 w-10'
+            />
+          </li>
+          <li className=' mb-2 font-semibold  text-left '>Numen Card</li>
+          <li className='  w-48 h-38 flex  text-left'>
+            Tenemos la mejor financiación con nuestra tarjeta Mastercard. Podes usarla donde quieras y acumular puntos para tu próxima compra.
+          </li>
+        </ul>
       </div>
-    </div>
-  );
+    </>
+  )
 }
 
-export default WhyChoose;
+export default whychoose

@@ -9,9 +9,9 @@ const latestoffers = () => {
   return (
     <>
       
-      <div className="flex flex-wrap space-x-4 space-y-2 p-6 justify-center items-center font-calibri bg-blue-100 w-full h-auto">
+      <div className="flex flex-wrap space-x-4 space-y-2 p-6 justify-center  font-calibri bg-blue-100 w-full h-auto">
         <p className="flex mb-2 justify-center items-center font-calibri text-xl w-full h-30 bg-blue-100">
-        <strong>¡ÚLTIMAS OFERTAS!</strong>
+        <strong>¡Últimas Ofertas!</strong>
       </p>
         
         <ul className="font-calibri bg-blue-200 rounded-2xl  w-50 h-70">
