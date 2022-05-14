@@ -25,11 +25,13 @@ import celu from "../Imagenes/celusam.png"
       const scrollToImage = i => {
         setCurrentImage(i);
         
-        refs[i].current.scrollIntoView(images.length[0,1,2]
-        // behavior: 'smooth', 
-          // block: 'nearest',
+        refs[i].current.scrollIntoView(
+          // images.length[i],
+        {
+          // behavior: 'smooth', 
+          block: 'nearest',
           // inline: 'start',
-        );
+        });
       };
 
       const nextImage = () => {
@@ -65,17 +67,17 @@ import celu from "../Imagenes/celusam.png"
       );
     
       return (
-        <div className='flex flex-col justify-center items-center bg-blue-100 w-full'>
-          <p className='mt-4 text-xl text-center font-bold '><a href="" className='text-blue-500'>@NumenStore  </a> en Instagram</p>
-              <div className="flex justify-center items-center  w-2/4 h-58 " >
+        <div className='flex flex-col items-center justify-center w-full bg-blue-100'>
+          <p className='mt-4 text-xl font-bold text-center '><a href="" className='text-blue-500'>@NumenStore  </a> en Instagram</p>
+              <div className="flex items-center justify-center w-2/4 h-58 " >
           <div className="relative w-auto">
           
               <ul>
               {sliderControl(true)}
-              <li className="flex justify-center items-center w-auto  overflow-hidden min-width: 0">
+              <li className="inline-flex overflow-hidden snap-x mandatory ">
               {images.map((img, i) => (
-                <div className=" bg-green-500 shrink-0  m-4 border-4 w-auto" key={img} ref={refs[i]}>
-                  <img src={img} className="object-fit w-52 h-52" />
+                <div className="inline-flex justify-center flex-shrink-0 m-4 border-4 " key={img} ref={refs[i]}>
+                  <img src={img} className=" w-52 h-52" />
                 </div>
               ))}
               {sliderControl()}

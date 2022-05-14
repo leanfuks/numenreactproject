@@ -9,13 +9,17 @@ import SurpriseSomeone from './components/7SurpriseSomeone'
 import Carousel from './components/8Carousel'
 import TellAFriend from './components/9TellAFriend'
 import Footer from "./components/10Footer"
-
-
+import { navigationBar } from "./data"
 
 const App = () => {
+
+  
+
+
+  
   return (
     <div> 
-      <NavBar/>
+      <NavBar list = {navigationBar}/>
       <Banner />
       <LatestOffers/>
       <WhyChoose/>
