@@ -15,10 +15,9 @@ const App = () => {
 
 
 
-  
   return (
-    <div> 
-      <NavBar list = {navigationBar}/>
+    <div > 
+      <NavBar list = {navigationBar} />
       <Banner />
       <LatestOffers/>
       <WhyChoose/>
