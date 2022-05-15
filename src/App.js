@@ -9,7 +9,6 @@ import SurpriseSomeone from './components/7SurpriseSomeone'
 import Carousel from './components/8Carousel'
 import TellAFriend from './components/9TellAFriend'
 import Footer from "./components/10Footer"
-import { navigationBar } from "./data"
 
 const App = () => {
 
@@ -17,7 +16,7 @@ const App = () => {
 
   return (
     <div > 
-      <NavBar list={navigationBar} cart={cart} />
+      <NavBar cart={cart} />
       <Banner />
       <LatestOffers cart={cart} setCart={setCart}/>
       <WhyChoose/>
