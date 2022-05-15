@@ -1,1 +1,2 @@
 export const MAIN_CONTAINER = "flex flex-wrap items-center justify-center w-full gap-12 p-4 text-lg text-black bg-blue-200 xsm:flex-col sm:flex-row font-calibri"
+export const BUTTOM = "w-6 h-6 mx-1 duration-300 ease-in-out delay-80 hover:-translate-y-1 hover:scale-110 hover:bg-blend-hard-light"

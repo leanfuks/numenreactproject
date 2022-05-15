@@ -7,9 +7,5 @@ export const navigationBar = [
     { id: 6, button: "Sobre nosotros" }
     ];
 
-    export const options = [
-    { id: 1, button: "Notificaciones", },
-    { id: 2, button: "Carrito" },
-    { id: 3, button: "Usuario",}
-    ];
+
 
