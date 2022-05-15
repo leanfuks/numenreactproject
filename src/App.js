@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavBar from "./components/1NavBar";
 import Banner from './components/2Banner';
 import LatestOffers from './components/3LatestOffers'
@@ -13,15 +13,13 @@ import { navigationBar } from "./data"
 
 const App = () => {
 
-  
+  const [cart, setCart] = useState(0);
 
-
-  
   return (
-    <div> 
-      <NavBar list = {navigationBar}/>
+    <div > 
+      <NavBar list={navigationBar} cart={cart} />
       <Banner />
-      <LatestOffers/>
+      <LatestOffers cart={cart} setCart={setCart}/>
       <WhyChoose/>
       <WhoMakes/>
       <OurPartners/>
