@@ -13,7 +13,6 @@ import { navigationBar } from "./data"
 
 const App = () => {
 
-  
 
 
   
