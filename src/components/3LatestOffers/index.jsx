@@ -5,24 +5,22 @@ import celu from "../Imagenes/celu.png";
 import note from "../Imagenes/notebook.png";
 import Swal from "sweetalert2";
 
-const latestoffers = () => {
+const latestoffers = ({cart, setCart}) => {
 
 
 
-const mostrarAlerta = () => {
-  Swal.fire({
-    title:'¡Éxito!',
-    text:'¡Compra realizada!',
-    icon:'success'
-})
+  const mostrarAlerta = () => {
+    setCart(cart + 1)
+    Swal.fire({
+      title:'¡Éxito!',
+      text:'¡Compra realizada!',
+      icon:'success'
+    })
   };
 
 
   return (
-    <>
-
-  
-      
+    <>      
       <div className="flex flex-wrap justify-center w-full h-auto p-6 space-x-4 space-y-2 bg-blue-100 font-calibri">
         <p className="flex items-center justify-center w-full mb-2 text-xl bg-blue-100 font-calibri h-30">
         <strong>¡Últimas Ofertas!</strong>
@@ -44,11 +42,13 @@ const mostrarAlerta = () => {
             $390.000</li>
           
           </li>
-          <li className="m-2 text-center bg-blue-300 rounded-lg"><button 
+          <li className="m-2 text-center bg-blue-300 rounded-lg">
+            {/* <button 
              onClick=
               {mostrarAlerta, () => setContador (contador + 1) }  className="rounded sm:ease-in-out sm:delay-80 sm:hover:-translate-y-1 sm:hover:scale-110 sm:hover:bg-blend-hard-light sm:duration-300">
               <a target="blank" src >Compra Rápida</a>
-            </button >
+            </button > */}
+            <button onClick={mostrarAlerta}>Agregar más</button>
           </li>
         </ul>
 
