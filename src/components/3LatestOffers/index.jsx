@@ -9,7 +9,7 @@ const latestoffers = ({ cart, setCart }) => {
   const items = [
     {
       name: 'Smart TV 4K 150 TCL',
-      price: '$390.000',
+      price: '$380.000',
       sale: '$290.000',
       image: tv
     },
